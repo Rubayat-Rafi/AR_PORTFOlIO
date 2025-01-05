@@ -52,7 +52,10 @@ const Header = () => {
             <ul className="menu menu-horizontal px-1">{navLinks}</ul>
           </div>
           {/* resume button  */}
-          <a className="font-medium text-xs md:text-sm  bg-bgMainColor hover:bg-hover text-textColor py-2 px-4 rounded-full cursor-pointer transition-colors duration-300 hover:bg-transparent hover:text-mainColor border border-mainColor hover:shadow-custom-glow">
+          <a 
+          href="/resume.pdf"
+          download="My_Resume.pdf"
+          className="font-medium text-xs md:text-sm  bg-bgMainColor hover:bg-hover text-textColor py-2 px-4 rounded-full cursor-pointer transition-colors duration-300 hover:bg-transparent hover:text-mainColor border border-mainColor hover:shadow-custom-glow">
             Download Resume
           </a>
 

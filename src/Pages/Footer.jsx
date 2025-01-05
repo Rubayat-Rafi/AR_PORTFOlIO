@@ -13,43 +13,49 @@ const Footer = () => {
 
         <div className="flex flex-col-reverse md:flex-row justify-between">
           <div className="text-TextColor">
-            <h6 className="text-lg font-semibold mb-4">Join Our Newsletter</h6>
-            <p className="max-w-[500px] text-base text-SecondTextColor">
-              Sign up to our mailing list below and be the first to know about
-              new updates. Don't worry, we hate spam too.
+            <p className="max-w-[500px] text-xs md:text-base text-SecondTextColor opacity-70">
+            Thank you for visiting my portfolio! I’m passionate about creating responsive, user-friendly, and visually engaging web applications. With a strong foundation in front-end technologies like React.js, Tailwind CSS, and JavaScript, I continuously strive to deliver innovative solutions. Let’s connect and collaborate to bring your ideas to life!
             </p>
 
           </div>
           <div className="flex gap-8 md:flex-row flex-col mb-10">
             <nav>
               <h3 className="text-base text-TextColor mb-5">Social</h3>
-              <div className="flex md:flex-col  md:space-x-0 space-x-4 md:space-y-4 text-sm text-SecondTextColor flex-wrap">
+              <div className="flex md:flex-col  md:space-x-0 space-x-4 md:space-y-4 text-xs opacity-70 md:text-sm text-SecondTextColor flex-wrap">
+              <a
+                  target="_blank"
+                  href="https://github.com/Rubayat-Rafi"
+                  className="hover:underline"
+                >
+                  GitHub
+                </a>
                 <a
                   target="_blank"
-                  href="https://www.linkedin.com/in/imam-hasan-666021204/"
+                  href="https://x.com/abu_rubayat"
+                  className="hover:underline"
+                >
+                  Twitter
+                </a>
+                <a
+                  target="_blank"
+                  href="https://www.linkedin.com/in/aburubayatrafi/"
                   className="hover:underline"
                 >
                   LinkedIn
                 </a>
+
                 <a
                   target="_blank"
-                  href="https://www.instagram.com/alphavideoedit/"
-                  className="hover:underline"
-                >
-                  Instagram
-                </a>
-                <a
-                  target="_blank"
-                  href="https://www.facebook.com/people/Alphavideoeditcom/61566444836135/?mibextid=ZbWKwL"
+                  href="https://www.facebook.com/aburubayatrafi"
                   className="hover:underline"
                 >
                   Facebook
                 </a>
               </div>
             </nav>
-            <nav>
+            {/* <nav>
               <h3 className="text-base text-TextColor mb-5">Information</h3>
-              <div className="md:space-y-4 text-sm text-SecondTextColor flex space-x-4 md:flex-col md:space-x-0">
+              <div className="md:space-y-4 text-xs opacity-70 md:text-sm text-SecondTextColor flex space-x-4 md:flex-col md:space-x-0">
                 <a href="/#faq" className="hover:underline">
                   FAQ
                 </a>
@@ -64,13 +70,13 @@ const Footer = () => {
                   About Us
                 </Link>
               </div>
-            </nav>
+            </nav> */}
           </div>
         </div>
       </div>
 
-      <div className="container mx-auto text-center -mt-6 mb-4 text-SecondTextColor text-xs md:text-base">
-        <p>&copy; 2024 Alpha Video Edit. All rights reserved.</p>
+      <div className="container mx-auto text-center -mt-6 mb-4 text-SecondTextColor text-xs md:text-base opacity-70">
+        <p>&copy; 2024 Abu Rubayat Rafi. All rights reserved.</p>
       </div>
     </div>
   );
